@@ -1,7 +1,7 @@
-var http =require('http');
+let http =require('http');
  
-http.createServer((req,res)=>{
+let server = http.createServer((req,res)=>{
     res.end('hello world')
 });
 server.listen(5050)
-console.log('server run is succesfull');
+console.log('server run is successful ');
